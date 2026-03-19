@@ -105,7 +105,21 @@ To start node2 > geth --datadir "./data"  --port 30306 --bootnodes enode://{ YOU
 
 18.Save the file and go to deploy tab and click deploy.
 
-19.Node1 has deployed and added to blockchain.
+19.NOTE : If you are facing Transaction failed cause of gas limit , then change remix.org as below
+```
+   1 . Go to the Solidity Compiler tab in Remix.
+
+   2 . Click Advanced Configurations.
+
+   3 . Find the EVM Version dropdown (it likely says "default").
+
+   4 . Change it to paris or london.
+
+   5 . Recompile your contract (Ctrl + S).
+
+   6 . Try to Deploy again.
+```
+20.Node1 has deployed and added to blockchain.
 
 ## PROGRAM
 
@@ -155,14 +169,15 @@ contract New{
 # OUTPUT:
 
 ## Command prompt output:
-<img width="1092" height="427" alt="Screenshot 2025-11-17 233651" src="https://github.com/user-attachments/assets/c0fc0628-d58c-4c51-80a5-b3ce4cfdd39d" />
+<img width="1919" height="1152" alt="image" src="https://github.com/user-attachments/assets/573a396f-30cc-42fe-b1a6-de4e43e1901c" />
 
 
 ## Deploying Transaction in Remix:
-<img width="1317" height="580" alt="Screenshot 2025-11-17 232757" src="https://github.com/user-attachments/assets/d3540f3b-275f-4b31-96e0-214cc0a89725" />
+<img width="1919" height="1068" alt="image" src="https://github.com/user-attachments/assets/812e135e-50be-4180-9751-c8b1bb9b6a5f" />
+
 
 ## Contract Creation Output in Command Prompt:
-<img width="1180" height="492" alt="image" src="https://github.com/user-attachments/assets/fc0eaa31-1340-4c3e-8410-3ca49a1f4dcd" />
+<img width="558" height="266" alt="image" src="https://github.com/user-attachments/assets/21b07d84-328a-4d79-97f3-9aeb95d62911" />
 
 # RESULT:
 Thus, the Private Blockchain is created, nodes are added with accounts, and Ether is transferred
